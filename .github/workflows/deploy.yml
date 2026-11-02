@@ -21,7 +21,7 @@ jobs:
 
       - name: Validate Content
         run: |
-          grep -q "Hello from CI/CD Pipeline!" index.html
+          grep -q "hello from CI/CD pipeline!" index.html
           echo "Validation successful"
 
   CD:
